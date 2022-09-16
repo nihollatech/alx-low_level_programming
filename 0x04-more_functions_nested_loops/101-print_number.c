@@ -6,7 +6,9 @@
  *
  * Return: void
  */
+
 void print_number(int n)
+
 {
 	int copy, nth, size = 1, ones = n % 10;
 
@@ -32,4 +34,4 @@ void print_number(int n)
 		}
 	}
 	_putchar('0' + ones);
-	 }
+	}
