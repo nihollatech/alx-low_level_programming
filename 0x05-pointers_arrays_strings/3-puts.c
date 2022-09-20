@@ -1,29 +1,23 @@
-#include <stdio.h>
 #include "main.h"
-/**
-* puts2- function that prints every other character in a string
-* @str: value to be evaluated
-* Return not
-*/
-void puts2(char *str)
-{
-	int len = 0;
-	int l = 0;
-	char *y = str;
-	int z;
 
-	while (*y != '\0')
+/**
+ * * _puts - prints a string
+ * * @str: the string
+ * *
+ * * Return: the length of a string
+ * */
+
+void _puts(char *str)
+
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+
 	{
-		y++;
-		len++;
+		_putchar(str[i]);
+		i++;
 	}
-	l = len - 1;
-	for (z = 0; z <= l; z++)
-	{
-		if (z % 2 == 0)
-		{
-			_putchar(str[z]);
-		}
-	}
+
 	_putchar('\n');
 }
