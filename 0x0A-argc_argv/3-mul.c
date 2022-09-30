@@ -9,11 +9,11 @@
 int main(int argc, char *argv[])
 {
 	int a, b, result;
-	
+
 	if (argc <= 2)
-	
 	{
-		printf("Error\n");									return (1);
+		printf("Error\n");
+		return (1);
 	}
 /* atoi convert a string to an int */
 	a = atoi(argv[1]);
